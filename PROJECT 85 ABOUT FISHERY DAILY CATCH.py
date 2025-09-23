@@ -60,17 +60,18 @@ print("Original list of fish caught daily:",fishery_daily_catch)
    #update record
 fishery_daily_catch[2]['value']=15
 del fishery_daily_catch[0]
-tot=sum(rec['value'] for rec in fishery_daily_catch)
+total=sum(rec['value'] for rec in fishery_daily_catch)
 print("updated")
 
-for rec in fishery_daily_catch:
-    print(rec)
-print("total value",tot)
+for record in fishery_daily_catch:
+    print(record)
+print("total value",total)
 
 
 
  
  
+
 
 
 
